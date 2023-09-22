@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular-Turf</title>
+
+     <!-- update the version number as needed -->
+     <script defer src="/__/firebase/10.4.0/firebase-app-compat.js"></script>
+     <!-- include only the Firebase features as you need -->
+     <script defer src="/__/firebase/10.4.0/firebase-auth-compat.js"></script>
+     <script defer src="/__/firebase/10.4.0/firebase-database-compat.js"></script>
+     <script defer src="/__/firebase/10.4.0/firebase-firestore-compat.js"></script>
+     <script defer src="/__/firebase/10.4.0/firebase-functions-compat.js"></script>
+     <script defer src="/__/firebase/10.4.0/firebase-messaging-compat.js"></script>
+     <script defer src="/__/firebase/10.4.0/firebase-storage-compat.js"></script>
+     <script defer src="/__/firebase/10.4.0/firebase-analytics-compat.js"></script>
+     <script defer src="/__/firebase/10.4.0/firebase-remote-config-compat.js"></script>
+     <script defer src="/__/firebase/10.4.0/firebase-performance-compat.js"></script>
+     <!-- 
+       initialize the SDK after all desired features are loaded, set useEmulator to false
+       to avoid connecting the SDK to running emulators.
+     -->
+     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+</head>
+<body>
+   <h1>Hello world !</h1> 
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDtFuorG4tTupia9Y3a6UWivvrgZLHTCns",
+      authDomain: "angular-092023.firebaseapp.com",
+      projectId: "angular-092023",
+      storageBucket: "angular-092023.appspot.com",
+      messagingSenderId: "795540954712",
+      appId: "1:795540954712:web:494612c9fe9904cf54742d",
+      measurementId: "G-N06769GQ93"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+</html>
